@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Mpesa Integration</h1>
+<form action=""method="post">
+    {% csrf_token %}
+    <input type="text" required name="phone" placeholder="Enter phone number"><br><br>
+    <input type="text"required name="amount" placeholder="Enter Amount"><br><br>
+    <input type="submit" value="Pay via Mpesa">
+
+</form>
+
+</body>
+</html>
